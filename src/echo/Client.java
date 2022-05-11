@@ -22,7 +22,7 @@ public class Client {
 
 		
 		System.out.println("[서버에 연결을 요청합니다.]");
-		socket.connect(new InetSocketAddress("192.168.0.58", 10001));
+		socket.connect(new InetSocketAddress("192.168.0.8", 10001));
 		
 		
 		System.out.println("[서버에 연결되었습니다.]");
@@ -42,7 +42,7 @@ public class Client {
 		Scanner sc = new Scanner(System.in);
 		
 		
-		while(true) { //메세지를 계속 주고받기 위해/ㅂ 반복문
+		while(true) { //메세지를 계속 주고받기 위해/ 반복문
 			
 			//키보드 입력
 			String str = sc.nextLine();
